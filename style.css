@@ -1,0 +1,123 @@
+@font-face {
+  font-family: Roboto;
+  src: url(font/roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family: Roboto-light;
+  src: url(font/roboto/Roboto-Light.ttf);
+  font-weight: light;
+}
+
+
+body{
+	background-color: #E6E6E6;
+
+	font-size:17px;
+	font-weight: lighter;
+}
+
+h1, h2, h3{
+	font-family: 'Roboto';
+}
+h1{
+	color:#375263;
+	font-size: 40px;
+}
+
+h2{
+	font-family: Roboto-light;
+}
+
+a{
+	font-family:Roboto;
+	color: #7787E5;
+}
+a:hover{
+	color:black;
+}
+
+
+/*class and id*/
+
+
+.container{
+	width: 700px;
+	margin: auto;
+}
+
+@media screen and (max-width:760px){
+	.container{
+		width: 500px;
+		margin: auto;
+	}
+}
+
+
+@media screen and (max-width:550px){
+	.container{
+		width: 450px;
+		margin: auto;
+	}
+}
+
+
+
+.card-white{
+	
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.img-circle{
+	width:150px; 
+	height:150px; 
+	object-fit:cover;
+	border-radius: 50%;
+}
+
+
+.btn-blue {
+    background-color: #7787E5;
+    color: white;
+    display: inline-block;
+    width: 7em;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.btn-blue:hover{
+
+	color: white;
+	background-color: black;
+	font-size: 1.02em;
+	padding: 17px 22px;
+}
+
+.list-inline{
+	list-style-type: none;
+	padding: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	margin:1em;
+
+}
+
+.list-inline img{
+	width: 2.5em;
+}
+
+
+.list-inline img:hover{
+
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+
+}
+
+
+
